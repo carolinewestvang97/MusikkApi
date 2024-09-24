@@ -4,10 +4,10 @@ name: Hello World
 on:
   push:
     branches:
-      - main  # Trigger på push til main-grenen
+      - master  # Trigger på push til main-grenen
   pull_request:
     branches:
-      - main  # Trigger på pull requests mot main
+      - master  # Trigger på pull requests mot main
 jobs:
   hello-world-job:
     runs-on: ubuntu-latest
