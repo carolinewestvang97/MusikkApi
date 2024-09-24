@@ -23,6 +23,6 @@ jobs:
 
     - name: Bygg Docker Image
       run: |
-        docker build -t carro/newimage ./MusikkApi
+        docker build -t carro/newimage:2.0 ./MusikkApi
 
         
