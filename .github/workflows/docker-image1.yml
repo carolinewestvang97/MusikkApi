@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build ./MusikkApi --file Dockerfile --tag carro/newimage:$(date +%s)
+      run: docker build ./MusikkApi -t carro/newimage
