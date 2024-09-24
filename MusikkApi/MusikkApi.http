@@ -1,0 +1,6 @@
+@MusikkApi_HostAddress = http://localhost:5196
+
+GET {{MusikkApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
